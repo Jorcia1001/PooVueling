@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 //using log4net;
 
 namespace PooVueling
@@ -29,7 +26,6 @@ namespace PooVueling
                 //log.Warn(e.Message);
                 
                 Console.WriteLine(e.Message);
-                
                 throw;
             }
 

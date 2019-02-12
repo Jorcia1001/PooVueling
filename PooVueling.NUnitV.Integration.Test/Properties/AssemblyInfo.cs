@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("PooVueling")]
+[assembly: AssemblyTitle("PooVueling.NUnitV.Integration.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PooVueling")]
+[assembly: AssemblyProduct("PooVueling.NUnitV.Integration.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("2ad2da03-736f-4192-9746-0c8ed52eb02c")]
+[assembly: Guid("d71af9db-cc0d-4dc4-9b8e-bd3b18d9156b")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //
