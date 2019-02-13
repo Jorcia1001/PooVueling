@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Diagnostics;
-//using log4net;
+using log4net;
 
 namespace PooVueling
 {
     public class Calculadora : ICalculadora, ICloneable
     {
 
-        //private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-
+        private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        
+        public Calculadora()
+        {
+            log.Info(message: "Inciando programa Calculadora");
+        }
         public object Clone()
         {
             throw new NotImplementedException();
@@ -23,9 +27,8 @@ namespace PooVueling
             }
             catch (DivideByZeroException e)
             {
-                //log.Warn(e.Message);
                 
-                Console.WriteLine(e.Message);
+                log.Warn(e.Message);
                 throw;
             }
 
